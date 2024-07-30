@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="product.xsl"?>
+<!DOCTYPE product [
+<!ELEMENT product (product_data)>
+<!ELEMENT product_data (product_code, product_name, product_details,product_price, product_quantity)>
+<!ELEMENT product_code (#PCDATA)>
+<!ELEMENT product_name (#PCDATA)>
+<!ELEMENT product_details (#PCDATA)>
+<!ELEMENT product_price (#PCDATA)>
+<!ELEMENT product_quantity (#PCDATA)>
+
+]>
+<Productcode>
+    <product_data>
+        <product_code>p001</product_code>
+        <product_name>ปากาเมจิก</product_name>
+        <product_details>อุปกรณ์การเรียน</product_details>
+        <product_price> 50บาท </product_price>
+        <product_quantity>70อัน </product_quantity>
+    </product_data>
+     <product_data>
+        <product_code>p002</product_code>
+        <product_name>หนังสือ</product_name>
+        <product_details>อุปกรณ์การเรียน</product_details>
+        <product_price> 150บาท </product_price>
+        <product_quantity>55อัน </product_quantity>
+    </product_data>
+     <product_data>
+        <product_code>p003</product_code>
+        <product_name>ปากาไฮไลค์</product_name>
+        <product_details>อุปกรณ์การเรียน</product_details>
+        <product_price> 80บาท </product_price>
+        <product_quantity> 40อัน</product_quantity>
+    </product_data>
+     <product_data>
+        <product_code>p004</product_code>
+        <product_name>สี24สีไม้</product_name>
+        <product_details>อุปกรณ์การเรียน</product_details>
+        <product_price> 120บาท </product_price>
+        <product_quantity>80อัน</product_quantity>
+    </product_data>
+     <product_data>
+        <product_code>p005</product_code>
+        <product_name>ไม้บรรณทัดวงเวียน</product_name>
+        <product_details>อุปกรณ์การเรียน</product_details>
+        <product_price> 195บาท </product_price>
+        <product_quantity> 100อัน</product_quantity>
+    </product_data>
+</Productcode>

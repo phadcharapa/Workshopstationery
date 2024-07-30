@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="Employee.xsl"?>
+<!DOCTYPE Employee [
+<!ELEMENT Employee (purchase_data)>
+<!ELEMENT Employee_data (Employee_ID,Employee_name,Employee_position, Employee_age, Employee_number)>
+<!ELEMENT Employee_ID (#PCDATA)>
+<!ELEMENT Employee_name (#PCDATA)>
+<!ELEMENT Employee_position (#PCDATA)>
+<!ELEMENT Employee_age (#PCDATA)>
+<!ELEMENT Employee_number (#PCDATA)>
+
+]>
+<Employee>
+    <Employee_data>
+        <Employee_ID>E001 </Employee_ID>
+        <Employee_name> นางสมหญฺิง</Employee_name>
+        <Employee_position>ผุ้จัดการ </Employee_position>
+        <Employee_age> 31ปี </Employee_age>
+        <Employee_number>081-234-5670 </Employee_number>
+    </Employee_data> 
+     <Employee_data>
+        <Employee_ID>E002</Employee_ID>
+        <Employee_name>นายสมปอง </Employee_name>
+        <Employee_position>พนักงานขาย </Employee_position>
+        <Employee_age>25ปี  </Employee_age>
+        <Employee_number>091-254-5670 </Employee_number>
+    </Employee_data> 
+     <Employee_data>
+        <Employee_ID>E003 </Employee_ID>
+        <Employee_name>นางสมหมาย </Employee_name>
+        <Employee_position>พนักงานขาย </Employee_position>
+        <Employee_age> 28ปี </Employee_age>
+        <Employee_number>087-734-5670 </Employee_number>
+    </Employee_data> 
+     <Employee_data>
+        <Employee_ID> E004</Employee_ID>
+        <Employee_name>นางสมควร </Employee_name>
+        <Employee_position> พนักงานคลังสินค้า</Employee_position>
+        <Employee_age>35ปี  </Employee_age>
+        <Employee_number> 085-234-9670</Employee_number>
+    </Employee_data> 
+     <Employee_data>
+        <Employee_ID> E005</Employee_ID>
+        <Employee_name>ชาย สมชาย </Employee_name>
+        <Employee_position>พนักงานบัญชี </Employee_position>
+        <Employee_age>20ปี  </Employee_age>
+        <Employee_number>081-234-5570 </Employee_number>
+    </Employee_data> 
+</Employee>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+<!DOCTYPE customer [
+<!ELEMENT customer (purchase_data)>
+<!ELEMENT customer_data (customer_ID, customer_name, customer_address, customer_age, customer_number)>
+<!ELEMENT customer_ID (#PCDATA)>
+<!ELEMENT customer_name (#PCDATA)>
+<!ELEMENT customer_address (#PCDATA)>
+<!ELEMENT customer_age (#PCDATA)>
+<!ELEMENT customer_number (#PCDATA)>
+
+]>
+<customer>
+    <customer_data>
+        <customer_ID>C001</customer_ID>
+        <customer_name>นาย ปุ้ย  </customer_name>
+        <customer_address>กรุงเทพฯ  </customer_address>
+        <customer_age>24ปี </customer_age>
+        <customer_number> 085-984-9670 </customer_number>
+    </customer_data>
+
+    <customer_data>
+        <customer_ID>C002</customer_ID>
+        <customer_name>นาย ใจ</customer_name>
+        <customer_address>กรุงเทพฯ  </customer_address>
+        <customer_age> 28ปี</customer_age>
+        <customer_number>085-234-6600  </customer_number>
+    </customer_data>
+
+     <customer_data>
+        <customer_ID>C003</customer_ID>
+        <customer_name>นาง บอย  </customer_name>
+        <customer_address>กรุงเทพฯ </customer_address>
+        <customer_age> 32ปี</customer_age>
+        <customer_number>095-234-9670  </customer_number>
+    </customer_data>
+    
+     <customer_data>
+        <customer_ID>C004</customer_ID>
+        <customer_name>นางนิด</customer_name>
+        <customer_address>กรุงเทพฯ</customer_address>
+        <customer_age>35ปี </customer_age>
+        <customer_number>085-885-9670</customer_number>
+    </customer_data>
+    <customer_data>
+        <customer_ID>C005</customer_ID>
+        <customer_name>นาง เเจ่ว</customer_name>
+        <customer_address>กรุงเทพฯ </customer_address>
+        <customer_age> 47ปี</customer_age>
+        <customer_number> 095-284-8870 </customer_number>
+    </customer_data>
+</customer>

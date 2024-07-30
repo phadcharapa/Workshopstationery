@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="Sales.xsl"?>
+<!DOCTYPE sales [
+<!ELEMENT sales (product_data)>
+<!ELEMENT sales_data (sales_code,sales_date , sales_endfocode, sales_price, sales_quantity)>
+<!ELEMENT sales_code (#PCDATA)>
+<!ELEMENT sales_date (#PCDATA)>
+<!ELEMENT sales_endfocode (#PCDATA)>
+<!ELEMENT sales_price (#PCDATA)>
+<!ELEMENT sales_quantity (#PCDATA)>
+
+]>
+<sales>
+    <sales_data>
+        <sales_code>S001  </sales_code> 
+        <sales_date>20/01/67 </sales_date>
+        <sales_endfocode >p001 </sales_endfocode >
+        <sales_price >50บาท </sales_price >
+        <sales_quantity> 35อีน   </sales_quantity>
+    </sales_data>
+
+     <sales_data>
+        <sales_code>S002</sales_code> 
+        <sales_date>25/04/67 </sales_date>
+        <sales_endfocode >p002 </sales_endfocode >
+        <sales_price >150บาท </sales_price >
+        <sales_quantity>  20อัน  </sales_quantity>
+    </sales_data>
+
+     <sales_data>
+        <sales_code>S003</sales_code> 
+        <sales_date>02/06/67 </sales_date>
+        <sales_endfocode >p003 </sales_endfocode >
+        <sales_price >80บาท </sales_price >
+        <sales_quantity> 30อัน   </sales_quantity>
+    </sales_data>
+
+     <sales_data>
+        <sales_code>S004 </sales_code> 
+        <sales_date>30/08/67 </sales_date>
+        <sales_endfocode >p004 </sales_endfocode >
+        <sales_price >120บาท </sales_price >
+        <sales_quantity> 20อัน   </sales_quantity>
+    </sales_data>
+     <sales_data>
+        <sales_code>S005 </sales_code> 
+        <sales_date>20/10/67 </sales_date>
+        <sales_endfocode >p005 </sales_endfocode >
+        <sales_price >195บาท </sales_price >
+        <sales_quantity>  60อัน  </sales_quantity>
+    </sales_data>
+</sales>
